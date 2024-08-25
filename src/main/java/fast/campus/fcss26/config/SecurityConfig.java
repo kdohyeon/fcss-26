@@ -14,8 +14,8 @@ public class SecurityConfig {
 
     public ClientRegistrationRepository clientRegistrationRepository() {
         ClientRegistration c = CommonOAuth2Provider.GITHUB.getBuilder("github")
-                .clientId("Ov23lidcvYBigcTuAk95")
-                .clientSecret("ec5739864c71efa8fb08cd88bff9039f2aeb4eae")
+                .clientId("Ov23lihI8pNrhO42wMZ4")
+                .clientSecret("afd24b7c27bb3af3e70ea3e048809b0b6306482c")
                 .build();
         return new InMemoryClientRegistrationRepository(c);
     }
